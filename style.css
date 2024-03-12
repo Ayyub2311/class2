@@ -1,0 +1,39 @@
+/* reset */
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    color: black;
+    font-size: large;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  /* border5-radius: 50%; */
+  margin: 100px auto 0;
+  cursor: pointer;
+  transition: all 1s;
+  /* makes the element visually bigger */
+  /* transform: scale(1); */
+  /* makes element travel through the site */
+  /* transform: translate(100px, 200px); */
+  /* rotate the element */
+  /* transform: rotate(50deg); */
+  /* streches the element */
+  /* transform: skew(30deg, 50deg); */
+  /* transform: scale(1) translate(100px, 200px) rotate(50deg) skew(30deg, 100deg); */
+
+}
+
+.box:hover{
+    background: red;
+    border: 10px solid black;
+    /* transform: skew(10deg, 20deg) scale(3) translate(50px,100px); */
+    border-radius: 50%;
+    transform: rotate(500deg);
+}
